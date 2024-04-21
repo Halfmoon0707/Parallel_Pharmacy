@@ -157,9 +157,9 @@ def login():
 
 import boto3
 import os
-os.environ['AWS_ACCESS_KEY_ID'] = 'AKIATCKAPAJIC2ZWYC6R'
-os.environ['AWS_SECRET_ACCESS_KEY'] = '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'
-os.environ['AWS_DEFAULT_REGION'] = 'ap-south-1'
+os.environ['AWS_ACCESS_KEY_ID'] = ''
+os.environ['AWS_SECRET_ACCESS_KEY'] = ''
+os.environ['AWS_DEFAULT_REGION'] = ''
 
 
 textract = boto3.client('textract')
